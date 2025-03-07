@@ -30,7 +30,7 @@ app.get('/', async (req, res) => {
 const server = app.listen(port, () => {
     const protocol = (process.env.HTTPS === true || process.env.NODE_ENV === 'production') ? 'https' : 'http';
     const { address, port } = server.address();
-    const host = address === '::' ? '127.0.0.1' : address;
+    const host = address === '::' ? 'https://real-estate-crm-zeta.vercel.app' : address;
     console.log(`Server listening at ${protocol}://${host}:${port}/`);
 });
 
