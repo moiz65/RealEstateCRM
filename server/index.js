@@ -17,7 +17,7 @@ const app = express();
 app.use(bodyParser.json());
 // Set up CORS  
 app.use(cors({
-  origin: 'https://real-estate-crm-qwkd.vercel.app'
+  origin: 'https://real-estate-crm-frontend-liart.vercel.app'
 }));
 //API Routes
 app.use('/api', route);
