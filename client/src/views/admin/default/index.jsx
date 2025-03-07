@@ -142,7 +142,7 @@ export default function UserReports() {
               <IconBox
                 w="56px"
                 h="56px"
-                bg="linear-gradient(90deg, #4481EB 0%, #04BEFE 100%)"
+                bg="linear-gradient(90deg, #FAA617 0%, #F26321 100%)"
                 icon={<Icon w="28px" h="28px" as={MdAddTask} color="white" />}
               />
             }
@@ -156,9 +156,9 @@ export default function UserReports() {
               <IconBox
                 w="56px"
                 h="56px"
-                bg={boxBg}
+                bg="linear-gradient(90deg, #FAA617 0%, #F26321 100%)"
                 icon={
-                  <Icon w="32px" h="32px" as={MdContacts} color={brandColor} />
+                  <Icon w="32px" h="32px" as={MdContacts} color="white" />
                 }
               />
             }
@@ -172,9 +172,9 @@ export default function UserReports() {
               <IconBox
                 w="56px"
                 h="56px"
-                bg={boxBg}
+                bg="linear-gradient(90deg, #FAA617 0%, #F26321 100%)"
                 icon={
-                  <Icon w="32px" h="32px" as={MdLeaderboard} color={brandColor} />
+                  <Icon w="32px" h="32px" as={MdLeaderboard} color="white" />
                 }
               />
             }
@@ -188,9 +188,9 @@ export default function UserReports() {
               <IconBox
                 w="56px"
                 h="56px"
-                bg={boxBg}
+                bg="linear-gradient(90deg, #FAA617 0%, #F26321 100%)"
                 icon={
-                  <Icon w="32px" h="32px" as={LuBuilding2} color={brandColor} />
+                  <Icon w="32px" h="32px" as={LuBuilding2} color="white" />
                 }
               />
             }
@@ -199,7 +199,7 @@ export default function UserReports() {
           />}
       </SimpleGrid>
 
-      <Grid Grid templateColumns="repeat(12, 1fr)" gap={3} >
+      <Grid Grid templateColumns="repeat(12, 1fr)" gap={3}>
         {
           (emailModule?.isActive || callModule?.isActive) &&
           <GridItem rowSpan={2} colSpan={{ base: 12, md: 6 }}>
