@@ -1,3 +1,3 @@
 export const constant = {
-  baseUrl: "https://real-estate-crm-zeta.vercel.app/",
+  baseUrl: "https://real-estate-crm-backend-one.vercel.app/",
 };
